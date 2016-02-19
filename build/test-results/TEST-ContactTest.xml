@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ContactTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-02-19T01:09:26" hostname="midiman.local" time="0.023">
+<testsuite name="ContactTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2016-02-19T01:43:10" hostname="midiman.local" time="0.006">
   <properties/>
-  <testcase name="Contact_getsAddress" classname="ContactTest" time="0.004"/>
+  <testcase name="Contact_getsAddress" classname="ContactTest" time="0.002"/>
   <testcase name="find_returnsContactByItsID_testContact" classname="ContactTest" time="0.001"/>
-  <testcase name="Contact_initiatesCorrectly_true" classname="ContactTest" time="0.002"/>
+  <testcase name="getPhones_initiallyReturnsEmptyArrayList" classname="ContactTest" time="0.0"/>
+  <testcase name="Contact_initiatesCorrectly_true" classname="ContactTest" time="0.0"/>
   <testcase name="Contact_getsName" classname="ContactTest" time="0.0"/>
   <testcase name="clear_emptiesAllContactsFromArrayList" classname="ContactTest" time="0.0"/>
   <testcase name="all_returnsAllInstancesOfContact_true" classname="ContactTest" time="0.0"/>
-  <testcase name="Contact_getsAge" classname="ContactTest" time="0.003"/>
-  <testcase name="find_throwsExceptionWhenIDIsOutOfBounds" classname="ContactTest" time="0.0"/>
-  <testcase name="getId_returnsIdOfContact_id" classname="ContactTest" time="0.001"/>
+  <testcase name="Contact_getsAge" classname="ContactTest" time="0.0"/>
+  <testcase name="find_throwsExceptionWhenIDIsOutOfBounds" classname="ContactTest" time="0.001"/>
+  <testcase name="addPhone_addsPhoneObjectToPhoneArrayList" classname="ContactTest" time="0.0"/>
+  <testcase name="getId_returnsIdOfContact_id" classname="ContactTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

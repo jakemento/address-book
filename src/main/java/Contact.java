@@ -1,8 +1,11 @@
 import java.util.ArrayList;
 
-
 public class Contact {
   private static ArrayList<Contact> instances = new ArrayList<Contact>();
+
+  private ArrayList<Phone> mPhones;
+
+
   private String mName;
   private String mAddress;
   private String mAge;
@@ -14,6 +17,8 @@ public class Contact {
     mAge = age;
     instances.add(this);
     mId = instances.size();
+    mPhones = new ArrayList<Phone>();
+
   }
 
   public String getName(){
@@ -44,5 +49,13 @@ public class Contact {
 
   public static void clear() {
     instances.clear();
+  }
+
+  public ArrayList<Phone> getPhones() {
+    return mPhones;
+  }
+
+  public void addPhone (Phone phone) {
+    mPhones.add(phone);
   }
 }

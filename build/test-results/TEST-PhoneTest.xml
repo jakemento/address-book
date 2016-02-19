@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="PhoneTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-02-19T01:09:26" hostname="midiman.local" time="0.027">
+<testsuite name="PhoneTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2016-02-19T01:43:10" hostname="midiman.local" time="0.003">
   <properties/>
-  <testcase name="clear_emptiesAllPhonesFromArrayList" classname="PhoneTest" time="0.003"/>
-  <testcase name="find_returnsPhoneWithSameId_secondPhone" classname="PhoneTest" time="0.001"/>
-  <testcase name="Phone_intantiatesWithCellType_cell" classname="PhoneTest" time="0.001"/>
+  <testcase name="clear_emptiesAllPhonesFromArrayList" classname="PhoneTest" time="0.0"/>
+  <testcase name="find_returnsPhoneWithSameId_secondPhone" classname="PhoneTest" time="0.0"/>
+  <testcase name="Phone_intantiatesWithCellType_cell" classname="PhoneTest" time="0.0"/>
   <testcase name="newId_PhoneInstantiateWithAnID_true" classname="PhoneTest" time="0.0"/>
-  <testcase name="Phone_instantiatesCorrectly_true" classname="PhoneTest" time="0.002"/>
-  <testcase name="Phone_intantiatesWithNumber" classname="PhoneTest" time="0.001"/>
-  <testcase name="find_returnsNullWhenNoPhoneFound_null" classname="PhoneTest" time="0.001"/>
-  <testcase name="all_returnsAllInstancesOfPhone_true" classname="PhoneTest" time="0.001"/>
-  <testcase name="Phone_intantiatesWithAreaCode_707" classname="PhoneTest" time="0.001"/>
+  <testcase name="Phone_instantiatesCorrectly_true" classname="PhoneTest" time="0.001"/>
+  <testcase name="Phone_intantiatesWithNumber" classname="PhoneTest" time="0.0"/>
+  <testcase name="find_returnsNullWhenNoPhoneFound_null" classname="PhoneTest" time="0.0"/>
+  <testcase name="all_returnsAllInstancesOfPhone_true" classname="PhoneTest" time="0.0"/>
+  <testcase name="Phone_intantiatesWithAreaCode_707" classname="PhoneTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
